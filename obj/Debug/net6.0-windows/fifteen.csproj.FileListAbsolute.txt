@@ -1,0 +1,17 @@
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\bin\Debug\net6.0-windows\fifteen.exe
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\bin\Debug\net6.0-windows\fifteen.deps.json
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\bin\Debug\net6.0-windows\fifteen.runtimeconfig.json
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\bin\Debug\net6.0-windows\fifteen.dll
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\bin\Debug\net6.0-windows\fifteen.pdb
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.csproj.AssemblyReference.cache
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.form_Fifteen.resources
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.csproj.GenerateResource.cache
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.GeneratedMSBuildEditorConfig.editorconfig
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.AssemblyInfoInputs.cache
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.AssemblyInfo.cs
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.csproj.CoreCompileInputs.cache
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.dll
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\refint\fifteen.dll
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.pdb
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\fifteen.genruntimeconfig.cache
+C:\thibodeauxk\Programs\WindowsFormApps\fifteen\obj\Debug\net6.0-windows\ref\fifteen.dll
