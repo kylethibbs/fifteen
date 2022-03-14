@@ -18,8 +18,27 @@ namespace fifteen
 
         }
 
+        // This function will be called when any of the tile buttons are clicked
+        private void btn_tile_Click(object sender, EventArgs e)
+        {
+            Button button;
+
+            if (sender is Button)
+            {
+                button = sender as Button;
+            }
+            else
+            {
+                return;
+            }
+
+            int tileIdx = getTileIdx(button.Name);
+
+
+        }
+
         // This function will be called when to get the button with index buttonNum 
-        public Control getButton(int buttonNum)
+        private Control getButton(int buttonNum)
         {
             string name = "btn_" + buttonNum;
             Control[] controls = panel_buttonPanel.Controls.Find(name, true);
@@ -27,7 +46,7 @@ namespace fifteen
         }
 
         // This function will initialize the board to a clean state
-        public void initializeBoard()
+        private void initializeBoard()
         {
 
             enableDisableBoard(true);
@@ -36,7 +55,7 @@ namespace fifteen
         }
 
         // This function will enable or disable the buttons on the board
-        public void enableDisableBoard(bool enable)
+        private void enableDisableBoard(bool enable)
         {
             for (int ii = 1; ii <= numSpaces; ii++)
             {
@@ -46,7 +65,7 @@ namespace fifteen
         }
 
         // This function will set the board back to a known clean slate
-        public void setCleanBoard()
+        private void setCleanBoard()
         {
             for (int ii = 1; ii <= numSpaces; ii++)
             {
@@ -63,6 +82,26 @@ namespace fifteen
                 }
 
             }
+        }
+
+        // This function finds the index of the tile by giving it a tile name
+        private int getTileIdx(string tileName)
+        {
+            int numStartIdx = tileName.Length - 1;
+            string numString;
+
+            for (int ii = tileName.Length - 1; ii >= 0; ii--)
+            {
+                if (tileName[ii] == '_')
+                {
+                    break;
+                }
+                numStartIdx--;
+            }
+
+            numString = tileName.Substring(numStartIdx+1, (tileName.Length - 1 - numStartIdx));
+
+            return Convert.ToInt32(numString);
         }
     }
 }
